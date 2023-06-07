@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
 export default function decorate(block) {
@@ -16,3 +17,4 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
+
